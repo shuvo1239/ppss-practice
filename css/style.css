@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../images/texture.jpg");
+}
+/* header section  */
+#main_header {
+    padding: 5px;
+}
+
+.top_heading {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+}
+.top_heading h2 {
+    font-weight: bold;
+    color: #222d83;
+}
+.top_heading h4 {
+    font-weight: 500;
+    color: #4a55af;
+}
+/* .top_heading h2 {
+    text-align: center;
+    
+} */
+
+/* body start  */
+
+#main_body {
+    margin-top: 20px;
+}
+
+.main_body_content {
+    background-color: rgba(183, 189, 223, 0.644);
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.registration {
+    background-color: rgba(213, 215, 236, 0.705);
+    width: 80%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.registration label {
+    font-size: 20px;
+    color: #222d83;
+    font-family: "Varela Round", sans-serif;
+}
+.registration input::placeholder {
+    font-size: 16px;
+    color: #b2b9e9;
+    font-family: "Varela Round", sans-serif;
+}
+.registration input,
+.registration button {
+    margin-top: 15px;
+}
+.registration input {
+    border: none !important;
+    outline: none !important;
+}
+.registration input:focus {
+    outline: none;
+    box-shadow: 0 0 15px 2px #727bb9;
+}
+
+.registration button {
+    background-color: #4a55af !important;
+}
+
+/* modal footer closing option */
+
+.modal_top {
+    color: #222d83;
+}
+/* modal body  */
+
+/* result main page css */
+#result_main .modal-header {
+    border-bottom: none;
+}
+#student_profile .profile {
+    background-color: #dcdde6;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#student_profile img {
+    width: 50%;
+}
+#student_profile .result {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.result table {
+    box-shadow: 0 5px 15px 0 rgba(121, 127, 214, 0.849);
+    border: 2px solid #abb2e7;
+}
+/* #student_profile tr {
+    background-color: rgba(33, 38, 88, 0.705);
+    margin-bottom: 5px;
+    border-radius: 10px;
+} */
+#student_profile tr:nth-child(even) {
+    transition: all 0.1s ease-in-out;
+    background-color: rgb(211, 212, 235);
+}
+#student_profile tr:nth-child(odd) {
+    background-color: rgb(185, 187, 233);
+    transition: all 0.1s ease-in-out;
+}
+#student_profile tr:hover {
+    background-color: rgb(154, 158, 236);
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+#student_profile tr td {
+    padding: 10px 20px;
+}
+
+.modal_close button {
+    background-color: #4a55af !important;
+}
+
+#main_footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #4a55af;
+    width: 100%;
+    height: 35px;
+}
+#main_footer p {
+    color: #fff;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
